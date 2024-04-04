@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_robot_interfaces/srv/Location.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module my_robot_interfaces {
+  module srv {
+    struct Location_Request {
+      geometry_msgs::msg::Vector3 location;
+    };
+    struct Location_Response {
+      boolean success;
+    };
+  };
+};
